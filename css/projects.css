@@ -1,0 +1,135 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    background: #232323;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+.ob ul {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    left: 90%;
+    transform: translate(-50%, 0%);
+}
+
+    .ob ul li {
+        list-style: none;
+    }
+
+        .ob ul li a {
+            text-align: right;
+            line-height: 80px;
+            font-size: 35px;
+            margin: 0 10px;
+            display: block;
+            border-radius: 3%;
+            position: relative;
+        }
+
+
+            .ob ul li a .fa {
+                position: relative;
+                transition: 6s;
+            }
+
+
+            .ob ul li a:hover .fa {
+                transform: rotateY(3960deg);
+            }
+
+.green {
+   
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 30px;
+    font-family: gabriola;
+}
+.green1 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 30px;
+    font-family: gabriola;
+}
+
+.top1 {
+    font-size: 30px;
+    color: lightblue;
+    font-family: chalkduster;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+
+.top {
+    font-size: 30px;
+    color: lightgreen;
+    font-family: chalkduster;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.green2 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 30px;
+    font-family: gabriola;
+}
+
+.top2 {
+    font-size: 30px;
+    color: orangered;
+    font-family: chalkduster;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+.green3 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 30px;
+    font-family: gabriola;
+}
+
+.top3 {
+    font-size: 30px;
+    color: lightyellow;
+    font-family: chalkduster;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.green4 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    font-size: 30px;
+    font-family: gabriola;
+}
+
+.top4 {
+    font-size: 30px;
+    color: lightpink;
+    font-family: chalkduster;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+

@@ -1,0 +1,110 @@
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    color: white;
+    background:#232323;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ob {
+    font-size: 100px;
+}
+
+.ob ul {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+ 
+}
+
+.ob ul li {
+        list-style: none;
+}
+
+.ob ul li a {
+            text-align: right;
+            line-height: 80px;
+            margin: 0 50px;
+            display: block;
+            border-radius: 3%;
+            position: relative;
+}
+
+
+.ob ul li a .fa {
+                position: relative;
+                transition: 6s;
+
+}
+
+
+            .ob ul li a:hover .fa {
+                transform: rotateY(3960deg);
+                   animation: shake 19.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+            }
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(50deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-10deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(50deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(50deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(10deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-10deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(10deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-10deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(10deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(10deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-10deg);
+    }
+}
+.ad {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 37%;
+    top: 40%;
+    font-size: 40px;
+    text-align: center;
+    color: #A2E6F7;
+}
+
